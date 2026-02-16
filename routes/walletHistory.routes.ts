@@ -2,7 +2,7 @@ import { Router } from "express";
 import {
   getWalletHistory,
   healthCheck,
-} from "../controllers";
+} from "../controllers/index.js";
 
 const walletHistoryRouter = Router();
 

@@ -1,6 +1,6 @@
 import "dotenv/config";
-import middlewares from "./middlewares";
-import router from "./routes";
+import middlewares from "./middlewares/index.js";
+import router from "./routes/index.js";
 import express from "express";
 
 async function gracefulShutdown() {

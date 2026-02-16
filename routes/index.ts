@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { errorHandler, healthCheck, notFound } from "../controllers";
-import walletHistoryRouter from "./walletHistory.routes";
+import { errorHandler, healthCheck, notFound } from "../controllers/index.js";
+import walletHistoryRouter from "./walletHistory.routes.js";
 
 const router = Router();
 
